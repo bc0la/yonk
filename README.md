@@ -17,4 +17,5 @@ Flags:
   -a, --allowlist string   Comma-separated IPs or file with IPs (all allowed if omitted)
   -h, --help               help for yonk
   -s, --no-ssl             Disable SSL (serve over HTTP)
-  -p, --port string        Port to listen on```
+  -p, --port string        Port to listen on
+  ```
