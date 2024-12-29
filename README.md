@@ -11,8 +11,8 @@ Usage:
 
 Flags:
 
-  -a, --allowlist string   Comma-separated IPs or file with IPs
+  -a, --allowlist   Comma-separated IPs or file with IPs
 
-  -h, --help               help for myserver
+  -h, --help               help for yonk
 
   -p, --port string        Port to listen on (default "8080")
