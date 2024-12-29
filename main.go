@@ -81,7 +81,7 @@ func runServer(cmd *cobra.Command, args []string) error {
 		log.Println("Warning: no allowlist, all IPs allowed.")
 
 		// Add confirmation prompt
-		fmt.Println("Press Enter to continue...")
+		fmt.Printf("Press Enter to continue if you understand the risks, you could be exposing  %q to the world!", absDir)
 		reader := bufio.NewReader(os.Stdin)
 		_, err := reader.ReadString('\n')
 		if err != nil {
