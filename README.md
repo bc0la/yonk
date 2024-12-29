@@ -10,6 +10,9 @@ Usage:
   yonk [directory] [flags]
 
 Flags:
+
   -a, --allowlist string   Comma-separated IPs or file with IPs
+
   -h, --help               help for myserver
+
   -p, --port string        Port to listen on (default "8080")
