@@ -20,7 +20,7 @@ var (
 
 func main() {
 	rootCmd := &cobra.Command{
-		Use:   "myserver [directory]",
+		Use:   "yonk [directory]",
 		Short: "Serve a static directory with an optional IP allowlist.",
 		Long: `Serve a static directory with an optional IP allowlist,
 logging all incoming requests and denying those not in the allowlist.`,
