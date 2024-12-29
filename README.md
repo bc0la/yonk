@@ -1,18 +1,20 @@
 # yonk
-golang simplehttpserver/http.server replacement with allowlists for better opsec
-Frustrations with OpSec, bad recommendations from cert study guides, etc. made me do this.
 
-Little writeup on all some of the bad http.server things out there on the interwebs:
-https://c0la.org/Blog/SimpleHTTPServer+-+Why+taking+the+time+do+things+right+is+worth+it
+Golang simpleHTTPserver/http.server replacement with allowlists for enhanced OpSec.
 
+Frustrations with OpSec and poor recommendations from certificate study guides inspired the creation of **yonk**.
 
-Usage:
+For some examples of simpleHTTPservers gone wrong, refer to [My Blog Post](https://c0la.org/Blog/SimpleHTTPServer+-+Why+taking+the+time+do+things+right+is+worth+it).
+
+Uses ssl by default
+
+## Usage
+
+```Usage:
   yonk [directory] [flags]
 
 Flags:
-
-  -a, --allowlist   Comma-separated IPs or file with IPs
-
+  -a, --allowlist string   Comma-separated IPs or file with IPs (all allowed if omitted)
   -h, --help               help for yonk
-
-  -p, --port string        Port to listen on (default "8080")
+  -s, --no-ssl             Disable SSL (serve over HTTP)
+  -p, --port string        Port to listen on```
