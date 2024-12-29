@@ -10,7 +10,8 @@ Uses ssl by default
 
 ## Usage
 
-```Usage:
+```text
+Usage:
   yonk [directory] [flags]
 
 Flags:
