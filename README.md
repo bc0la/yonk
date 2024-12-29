@@ -7,7 +7,7 @@ https://c0la.org/Blog/SimpleHTTPServer+-+Why+taking+the+time+do+things+right+is+
 
 
 Usage:
-  myserver [directory] [flags]
+  yonk [directory] [flags]
 
 Flags:
   -a, --allowlist string   Comma-separated IPs or file with IPs
